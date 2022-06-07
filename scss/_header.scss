@@ -1,0 +1,20 @@
+header{
+    background-color:$color2 ;
+    nav{
+        color: $color1;
+        div{
+            .icon1{
+                width: 15%;
+            }
+            .navbar-toggler{
+                background-color:$color1;
+            }
+            div{
+                justify-content: flex-end;
+                ul{
+                    align-items: center
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Saber invertir no te hara millonrario pero te haran vivir mejor, Aprende ya con nosotros a invertir de verdad con nuestros cursos gratuitos y contenido todas las semanas!">
+        <meta name="Keywords" content="LGM inversiones, Aprende a invertir, inversion, bolsa de valores, criptomonedas, finanzas personales"> 
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,400;1,100;1,300&family=Source+Serif+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>	
+        <!-- Bootstrap Js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <!-- CDN de la librería de Jquery  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Estilos personales -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/pushbar.css">
+        <link rel="stylesheet" href="css/demo.css">
+        <!-- slick styles -->
+        <link rel="stylesheet" href="js/slick/slick.css">
+        <link rel="stylesheet" href="js/slick/slick-theme.css">
+        <!-- sweet alert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title>iCare</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-xl  navbar-light">
+                <div class="container">
+                    <img class="icon1" src="visual-N/Recurso1.png" alt="LOGO">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="equipos.html">Equipos</a>
+                            </li>
+                            <li class="nav-item lii">
+                                    <img data-pushbar-target="right" src="visual-N/Recurso85.png" class="carritoBtn carrito">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="animacion">
+
+            <section class=" imgNone container">
+                <a>Equipos:</a>
+                <div id="rowProductos" class="padreProductos"></div>
+            </section>
+
+            <!-- Pushbars: Carrito de Compras -->
+		<aside data-pushbar-id="right" data-pushbar-direction="right">
+			<div class="title">
+				<span data-pushbar-close class="close push_right"></span> 
+				<h3 class="pushbarsita">Carrito de compras:</h3>
+			</div>
+			<ul id="listaCarrito" style="list-style: none;">
+			</ul>
+		</aside>
+
+        </main>
+
+        <hr>
+
+        <footer class="container">
+            <img class="icon5" src="visual-N/Recurso-12.png" alt="REDES SOCIALES">
+            <img class="icon5" src="visual-N/Recurso-13.png" alt="REDES SOCIALES">
+            <img class="icon5" src="visual-N/Recurso-14.png" alt="REDES SOCIALES">
+            <p>© Copyright GGRP</p>
+        </footer>
+
+        <!-- SCRIPTS -->
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+            <!-- Slick -->
+            <script src="http://code.jquery.com/jquery-latest.js"></script>
+            <script src="js/slick/slick.min.js"></script>
+            <script>
+                $(".slideshow").slick({
+                dots: true,
+                fade: true,
+                autoplay: true
+                });
+            </script>
+            <!-- Js propio -->
+            <script src="js/productos.js"></script>	
+            <script src="js/logica.js"></script>
+            <script src="js/dolar.js"></script>		
+            <!-- pushbar -->
+            <script src="js/pushbar.js"></script>
+            <script>
+                const pushbar = new Pushbar({
+                    blur: 0,
+                    overlay: 1,
+                });
+            </script>
+        <!-- SCRIPTS -->
+    </body>
+</html>

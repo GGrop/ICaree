@@ -1,0 +1,8 @@
+@mixin text($color, $fontSize, $fontWeight, $textTransform, $lineHeight) {
+    font-family: 'Roboto';
+    color:$color;                               //color xd ya ta
+    font-size:$fontSize;                        //Tamaño de la letra ya ta
+    font-weight:400;                    //Grosor de la letra ya ta
+    line-height:$lineHeight;                    //Separacion de renglones
+    text-transform:$textTransform;              //Uppercase o no
+}

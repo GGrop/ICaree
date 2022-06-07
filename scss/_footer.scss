@@ -1,0 +1,14 @@
+footer{
+    width: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .icon5{
+        width: 4%;
+        margin-bottom: 5px;
+    }
+    p{
+        min-width: 10%;
+        font-size: x-small
+    }
+}

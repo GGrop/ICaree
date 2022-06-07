@@ -1,0 +1,10 @@
+Pantalla: 5.5", 1080 x 1920 pixels
+Procesador: Apple A10 Fusion
+RAM: 3GB
+Almacenamiento: 32GB
+Cámara: 12 MP, Dual
+Batería: 2900 mAh
+OS: iOS 10
+Perfil: 7.3 mm
+Peso: 188 g
+
