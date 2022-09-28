@@ -1,6 +1,6 @@
 # ICaree
 
-https://icare-e.vercel.app/equipos.html
+https://icare-e.vercel.app/index.html
 
 ICare es una Page diseñada para una PYME real de mi localidad la cual utilice para hacer mi proyecto Final de JavaScripts donde se me evaluo mi capacidad de crear un E-Commerce implementando JavaScripts y estilizaciones.
 
